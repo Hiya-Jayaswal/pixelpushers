@@ -1,4 +1,14 @@
-.mainContainer {
+.mainContainer{
+  display: flex;
+width: auto;
+justify-content: start;
+align-items: flex-start;
+align-content: flex-start;
+gap: 2rem;
+flex-wrap: wrap;
+margin-left: 8rem;
+}
+.cardContainer {
   display: flex;
   width: 22.25rem;
   height: auto;
