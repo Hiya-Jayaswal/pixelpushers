@@ -170,3 +170,27 @@ body {
   line-height: 1.6rem; /* 213.333% */
   text-transform: capitalize;
   }
+
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Add left margin */
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  
+ 
+.logo-container{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+}
