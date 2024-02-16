@@ -1,0 +1,172 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mainContainer{
+    display: flex;
+  width: auto;
+  justify-content: start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-left: 8rem;
+  }
+  .cardContainer {
+    display: flex;
+    width: 22.25rem;
+    height: auto;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    border-radius: 0.75rem;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+  }
+  
+  .img {
+    width: 22rem;
+    height: 12.5rem;
+    flex-shrink: 0;
+    border-radius: 0rem;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      lightgray 50% / cover no-repeat;
+    box-shadow: 0px 11px 4px 0px rgba(164, 164, 164, 0.33) inset;
+  }
+  .headingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+  
+  .recipeName {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .recipeType {
+    color: #9a9a9a;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .ingredientsUsedcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+  .ingredientsUsed{
+    color: #9A9A9A;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin:0;
+  }
+  
+  .ingredientsHeading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .recipeBTN {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0.75rem;
+    background: #284d3a;
+    box-shadow: 0px 3px 0px 0px #184830 inset, 0px 1px 0px 0px #598c72;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .btnText {
+    color: #fff;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: #9a9a9a;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  
+  .ingText {
+    color: #868686;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  
+  }
+  .nutrients{
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  }
+  
+  .nutrientList{
+    color: #6B6B6B;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6rem; /* 213.333% */
+  text-transform: capitalize;
+  }
