@@ -1,0 +1,58 @@
+/* Custom CSS styling for FridgeFeast */
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #afc6dd; /* Whitish background color */
+    color: #4e7699; /* Dark grey text color */
+  }
+  
+  .container {
+    border: 1px solid #ced4da; /* Lighter border color */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* White background color */
+  }
+  
+  h1 {
+    color: #e47226; /* Food-friendly orange color for the heading */
+    font-size: 80px;
+  }
+  
+  .main {
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(239, 217, 217, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .form-control {
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Food-friendly green color */
+    border-color: #218838; /* Darker green for button border */
+    color: #ffffff; /* White text color for the button */
+  }
+  
+  .table {
+    border: 1px solid #ced4da; /* Lighter border color for the table */
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ced4da; /* Lighter border color for table cells */
+  }
+  
+  /* Custom styling for the ingredients_list table */
+  .ingredients_list tr:nth-child(odd) {
+    background-color: #d13232; /* Alternate light background for table rows */
+  }
+  
+  .ingredients_list td {
+    color: #b3c1d0; /* Dark text color for table cells */
+  }
+  
+  /* Hover effect for table rows */
+  .ingredients_list tr:hover {
+    background-color: #d6d8db; /* Slightly darker background on hover */
+  }
